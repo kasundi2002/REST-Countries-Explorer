@@ -2,7 +2,7 @@
 import { useEffect, useState, useCallback } from "react";
 import { Container, Grid, Typography } from "@mui/material";
 import axios from "axios";
-import CountryCard from "../components/CountryCard";
+import CountryCard from "../components/countryCard";
 import "./../styles/pages/userFavourites.css";
 
 function UserFavorites() {
