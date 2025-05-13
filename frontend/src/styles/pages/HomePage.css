@@ -1,0 +1,45 @@
+/* pages/Home.css */
+.card-grid {
+    margin-top: 2rem;
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-title {
+    text-align: center;
+    font-weight: 700;
+    color: #3e4f60;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    animation: fadeInUp 1s ease-out;
+    letter-spacing: 1px;
+}
+
+
+body.dark-mode .hero-title {
+    color: #90caf9;
+}
+
+/* Keyframes for animation */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

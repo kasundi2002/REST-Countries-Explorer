@@ -1,0 +1,7 @@
+# Ignore .env file in the backend folder
+backend/.env
+
+# Other typical ignored files
+node_modules/
+dist/
+*.log

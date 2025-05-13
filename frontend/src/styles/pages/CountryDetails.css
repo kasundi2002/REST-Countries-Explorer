@@ -1,0 +1,9 @@
+/* pages/CountryDetails.css */
+.details-container {
+    margin-top: 2rem;
+}
+
+.details-card {
+    max-width: 600px;
+    margin: 0 auto;
+}

@@ -1,0 +1,44 @@
+/* styles/components/FilterDrawer.css */
+
+.filter-fab {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1200;
+}
+
+.filter-drawer {
+    width: 320px;
+    max-width: 90vw;
+    padding: 1.5rem;
+    height: 100%;
+    background-color: var(--drawer-bg);
+    color: var(--drawer-text);
+    overflow-y: auto;
+}
+
+.filter-drawer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle-buttons {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    display: flex;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --drawer-bg: #1e1e1e;
+        --drawer-text: white;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --drawer-bg: #fff;
+        --drawer-text: black;
+    }
+}

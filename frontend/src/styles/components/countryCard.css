@@ -1,0 +1,82 @@
+/* components/countryCard.css */
+
+.country-card {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    border-radius: 16px;
+    background-color: white;
+    /* make sure this is here */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.country-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.country-card img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.country-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.country-card img {
+    object-fit: cover;
+    height: 180px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+.fav-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    z-index: 2;
+    transition: background-color 0.2s ease;
+}
+
+.fav-btn:hover {
+    background-color: #fef2f2;
+}
+
+.MuiCardContent-root {
+    padding: 16px;
+    background-color: white;
+    color: #222;
+}
+
+.MuiTypography-h6 {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.MuiTypography-body2 {
+    color: #555;
+    font-size: 0.875rem;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 3rem;
+    padding: 2rem 1rem;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
