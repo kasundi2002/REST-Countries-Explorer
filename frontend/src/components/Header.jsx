@@ -3,7 +3,7 @@ import { AppBar, Toolbar, Typography, Button, Box } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import ThemeToggle from "./ThemeToggle";
-import "./../styles/components/header.css";
+import "./../styles/components/Header.css";
 
 function Header() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
