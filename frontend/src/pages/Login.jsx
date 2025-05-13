@@ -4,7 +4,7 @@ import { useNavigate} from 'react-router-dom'
 import { useEffect } from 'react'; // ✅ Correct
 import { TextField, Button, Paper, Typography } from '@mui/material'
 import axios from "axios";
-import './../styles/pages/login.css'
+import './../styles/pages/Login.css'
 
 function Login() {
   const [email, setEmail] = useState('')
