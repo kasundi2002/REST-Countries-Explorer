@@ -2,7 +2,7 @@
 import { useEffect, useState, useCallback } from "react";
 import { Container, Grid, Pagination, Box } from "@mui/material";
 import { useLocation } from "react-router-dom";
-import CountryCard from "../components/CountryCard";
+import CountryCard from "../components/countryCard";
 import FilterComponent from "../components/FilterComponent";
 import axios from "axios";
 import "./../styles/pages/HomePage.css";
