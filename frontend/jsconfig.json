@@ -1,0 +1,10 @@
+{
+    "typeAcquisition": {
+      "enable": true
+    },
+    "compilerOptions": {
+      "types": ["jest", "node"]
+    },
+    "include": ["src/**/*", "src/tests/**/*"]
+  }
+  

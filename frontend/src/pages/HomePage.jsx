@@ -22,8 +22,14 @@ function Home() {
   useEffect(() => {
     const fetchInitialData = async () => {
       try {
-        const countriesRes = await fetch("https://restcountries.com/v3.1/all");
-        const data = await countriesRes.json();
+        // const countriesRes = await fetch("https://restcountries.com/v3.1/all");
+        // const data = await countriesRes.json();
+
+        const countriesRes = await axios.get(
+          "https://restcountries.com/v3.1/all"
+        );
+        const data = countriesRes.data;
+        
         setCountries(data);
         setFiltered(data);
 
