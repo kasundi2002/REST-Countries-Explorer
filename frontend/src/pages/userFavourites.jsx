@@ -67,7 +67,23 @@ function UserFavorites() {
 
   return (
     <Container className="favorites-container">
-      <Typography variant="h5" sx={{ my: 2, textAlign: "center" }}>
+      <Typography
+        variant="h5"
+        sx={{
+          my: 2,
+          textAlign: "center",
+          color: "black",
+          fontWeight: "bold",
+          letterSpacing: 1.2,
+          textTransform: "uppercase",
+          backgroundColor: "#b0bec5", // Light grey
+          padding: "12px 24px",
+          borderRadius: "8px",
+          boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
+          display: "inline-block",
+          mx: "auto",
+        }}
+      >
         Your favourite countries
       </Typography>
 
